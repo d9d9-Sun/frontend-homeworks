@@ -6,11 +6,24 @@ body {
     background-color: antiquewhite;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+
 }
 
 ul li {
-    display: inline-flex;
-    margin: 0 5px;
+    display: flex;
+    
+}
+
+p {
+    text-align: justify;
 }
