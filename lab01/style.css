@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: flex;
+    display: inline-flex;
+    margin: 0 5px;
+}
