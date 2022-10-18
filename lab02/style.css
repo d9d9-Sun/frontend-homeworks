@@ -1,0 +1,33 @@
+* {
+    margin:0;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #00D678;
+}
+
+p {
+    color: #548dd4;
+    margin-bottom: 50px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}
