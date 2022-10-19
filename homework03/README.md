@@ -1,0 +1,5 @@
+**Задание 01**
+
+Условие: https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework03/tasks/task01.pdf
+
+Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework03/css_text.html
