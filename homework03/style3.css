@@ -1,0 +1,30 @@
+body {
+    background-color: #d6d6d6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.formula {
+    font-size: 22px;
+    background-color: #f2b0ad;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.math_symbol {
+    color: #80190b;
+    font-style: italic;
+    font-weight: bold;
+}
