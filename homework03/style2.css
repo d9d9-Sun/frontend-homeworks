@@ -1,0 +1,53 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.quote-top {
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.quote-bottom {
+    text-align: right;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+.second {
+    opacity: 90%;
+}
+
+.third {
+    opacity: 70%;
+}
+
+.fourth {
+    opacity: 50%;
+}
+
+.fifth {
+    opacity: 30%;
+}
+
+.sixth {
+    opacity: 10%;
+}
