@@ -1,0 +1,46 @@
+body {
+    background-color: #b0c4dd;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-indent: 13px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #261dff;
+    text-transform: uppercase;
+}
+
+.i {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+    font-size: 18px;
+    line-height: 90%;
+    text-align: justify;
+}
