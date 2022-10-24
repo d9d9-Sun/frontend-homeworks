@@ -1,0 +1,73 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    color: #FF0000;
+    text-align: center;
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images {
+    height: 70vh;
+}
+
+.link {
+    text-align: center;
+    margin-top: -200px
+}
+
+.img1 {
+    top: 0;
+    left: 0;
+}
+
+.img2 {
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+}
+
+.img3 {
+    top: 35%;
+    left: 20%;
+    z-index: 20;
+}
+
+.img4 {
+    top:53%;
+    left: 34%;
+    z-index: 30;
+}
+
+.img5 {
+    top: 35%;
+    right: 20%;
+    z-index: 20;
+}
+
+.img6 {
+    top: 20%;
+    right: 10%;
+    z-index: 10;
+}
+
+.img7 {
+    top: 0;
+    right: 0;
+}
