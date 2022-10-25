@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.back1 {
+    background: url(img/weather1.png) repeat-x;
+    height: 120px;
+}
+
+.back2 {
+    background: url(img/weather2.png) repeat-x;
+    height: 120px;
+}
+
+.back3 {
+    background: url(img/weather3.png) repeat-x;
+    height: 120px;
+}
