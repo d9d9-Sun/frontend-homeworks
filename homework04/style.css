@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 200%;
+}
+
+body {
+    display: flex;
+    height: 200%;
+    background: url(img/pngegg.png) bottom 0px left 50px no-repeat fixed,
+                url(img/pngeg.png) right 0px repeat-y;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    margin-bottom: 30px;
+}

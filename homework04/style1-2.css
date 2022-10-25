@@ -10,6 +10,13 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    background-color: #dee4f0;
+}
+
+p {
+    text-align: center;
+    background: url(img/20170728_122336.jpg) no-repeat ;
+    height:500px;
 }
 
 .container {
