@@ -1,0 +1,33 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+p::first-letter {
+    color: #FF0000;
+}
+
+p {
+    text-align: justify;
+}
+
+p::selection {
+    background-color: #00FF00;
+    color: #FFFFFF;
+}
+
+p::before {
+    content: "начало ";
+}
+
+p::after {
+    content: " конец";
+}
+
+li:nth-child(2n) {
+    color: #00FF00;
+}
+
+li:nth-child(2n-1) {
+    color: #FF0000;
+}

@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    margin: 7px 0;
+}
+.li-solid {
+    border: 5px solid #FF0000;
+}
+
+.li-double {
+    border: 10px double #FF0000;
+}
+
+.li-groove {
+    border: 5px groove #FF0000;
+}
+
+.li-ridge {
+    border: 5px ridge #FF0000;
+}
+
+.li-inset {
+    border: 5px inset #FF0000;
+}
+
+.li-outset {
+    border: 5px outset #FF0000;
+}
+
+.li-dashed {
+    border: 5px dashed #FF0000;
+}
+
+.li-dotted {
+    border: 5px dotted #FF0000;
+}
