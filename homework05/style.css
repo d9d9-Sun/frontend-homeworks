@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.black-white {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    text-transform: uppercase;
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+.black-white div {
+    border: 1px solid #000000;
+    padding-top: 10px;
+}
+
+.black {
+    padding-left: 10px;
+}
+
+.white {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.header {
+    background-color: #05e0db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 100px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.nav {
+    width: 25%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    background-color: #5bd078;
+    color: #FFFFFF;
+}
+
+.content {
+    width: 55%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    background-color: #f5c040;
+    color: #FFFFFF;
+}
+
+.aside {
+    width: 20%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: #31b6fd;
+    color: #FFFFFF;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: #4584d3;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.part-3 {
+    display: flex;
+}
+
+.part-3>div {
+    width: calc(100%/3);
+    text-align: center;
+    border: 7px solid #b9c1b9;
+    height: 150px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather {
+    background-color: #e65c5a;
+}
+
+.rate {
+    background-color: #98bd60;
+}
+
+.cinema {
+    background-color: #055590;
+}
+
+.key {
+    font-size: 20px;
+}
+
+.value {
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+
+.brown {
+    margin-top: 40px;
+}
+
+.brown>div {
+    border: 7px solid #957755;
+}
