@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.red-border-box {
+    border: 2px solid #FF0000;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.blue-border-box {
+    border: 2px solid #0000FF;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.green-border-box {
+    border: 2px solid #00FF00;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.red-box {
+    width: 200px;
+    height: 200px;
+    background-color: #ff8888;
+    position: absolute;
+    z-index: 999;
+}
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    background-color: #7e89eb;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.green-box {
+    width: 200px;
+    height: 200px;
+    background-color: #4dee99;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 240px;
+}
+
+.task03 {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 800px;
+}
+
+.red-circle {
+    background-color: #FF0000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid #000000;
+}
+
+.yellow-circle {
+    background-color: #ffff00;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid #000000;
+}
+
+.green-circle {
+    background-color: #008000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px auto;
+    border: 1px solid #000000;
+}
+
+.lorem {
+    font-size: 25px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    background-color: #b43273;
+    color: #FFFFFF;
+    width: 1200px;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pink-border {
+    border: 1px solid #b43273;
+    border-right: 0;
+    border-radius: 1%;
+}
+
+.task04 {
+    padding: 20px;
+    color: #b43273
+}
+
+.task04 h1 {
+    font-size: 45px;
+}
+
+.task05 h1 {
+    font-size: 35px;
+    background-color: #c4cd14;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+}
+
+.t5-text {
+    border: 1px solid #c4cd14;
+    margin: 100px 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.task06 {
+    margin-top: 50px;
+}
+
+.green-smile {
+    background-color: #c4cd14;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.left-eye {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 999;
+}
+
+.right-eye {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+    left: 300px;
+    z-index: 999;
+}
+
+.nose {
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    z-index: 999;
+}
+
+.green-nose {
+    width: 350px;
+    height: 350px;
+    background-color: #c4cd14;
+    border-radius: 100%;
+    position: relative;
+    left: 75px;
+    top: -250px;
+    z-index: 900;
+}
+
+.mouth {
+    width: 250px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    position: relative;
+    left: 125px;
+    top: -450px;
+    z-index: 100;
+}
+
+.task07 {
+    margin-top: 50px;
+}
+
+.task07 ul {
+    display: block;
+	list-style: none;
+	padding: 3px 0 0 3px;
+	font-size: 0;
+}
+
+.task07 ul li {
+    box-sizing: border-box;
+	display: inline-block;
+	margin-right: -1px;    
+	width: 300px;
+	height: 60px;
+	border: 1px solid #000000;
+	vertical-align: top;
+	text-align: center;
+	padding: 20px;
+	font-size: 24px;
+	color: #666;
+	line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.task07 ul li:hover {
+    background-color: #ffff00;
+}
+
+.task07 ul li:active {
+    font-size: 21px;
+}
