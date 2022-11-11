@@ -9,3 +9,9 @@
 Условие: https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework07/tasks/task02.png
 
 Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework07/task02.html
+
+**Задание 03**
+
+Условие: https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework07/tasks/task03.png
+
+Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework07/task03.html
