@@ -14,4 +14,10 @@
 
 Условие (Выполните 1 и 6 задание): https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework10/tasks/taks3-4.pdf
 
-Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework10/task4.html
+Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework10/task04.html
+
+**Задание 05**
+
+Условие (Выполните любые 2 задания): https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework10/tasks/taks5-6.pdf
+
+Готовое задание: https://d9d9-sun.github.io/frontend-homeworks/homework10/task05.html
