@@ -4,7 +4,9 @@ Each homework has it's own package with README.md file with tasks descriptions a
 
 <ins>Fast navigation (last at top):</ins>
 
-[homework08](https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework07)
+[homework09](https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework09)
+
+[homework08](https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework08)
 
 [homework07](https://github.com/d9d9-Sun/frontend-homeworks/tree/master/homework07)
 
