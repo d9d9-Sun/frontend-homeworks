@@ -18,10 +18,8 @@ function decFont() {
     ta.style.fontSize = parseInt(getComputedStyle(ta, '').fontSize) - 2 + 'px';
 }
 
-colorPicker.addEventListener("change", changeColor, false);
-
-function changeColor(event) {
-  document.getElementById('textarea')(function() {
-    ta.style.color = event.target.value;
-  });
-}
+function changeСolor() {
+    let ta = document.getElementById('textarea');
+    let color = document.getElementById('colorpicker').value;
+    ta.style.color = color;
+  }
