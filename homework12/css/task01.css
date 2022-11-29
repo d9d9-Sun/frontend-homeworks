@@ -1,0 +1,16 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    width: 400px;
+    height: 75px;
+    margin: 20px auto;
+}
+
+#result {
+    text-align: center;
+}
