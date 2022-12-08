@@ -10,12 +10,12 @@ function makeItalic() {
 
 function incFont() {
     let ta = document.getElementById('textarea');
-    ta.style.fontSize = parseInt(getComputedStyle(ta, '').fontSize) + 2 + 'px';
+    ta.style.fontSize = parseInt(getComputedStyle(ta).fontSize) + 2 + 'px';
 }
 
 function decFont() {
     let ta = document.getElementById('textarea');
-    ta.style.fontSize = parseInt(getComputedStyle(ta, '').fontSize) - 2 + 'px';
+    ta.style.fontSize = parseInt(getComputedStyle(ta).fontSize) - 2 + 'px';
 }
 
 function changeСolor() {
