@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task01 - homework13</title>
+    <script src="assets/js/task01.js"></script>
+    <link rel="stylesheet" href="assets/css/task01.css" />
+</head>
+
+<body>
+    <img id="animal" src="https://source.unsplash.com/random/200x200" />
+    <script>
+        // Получаем элемент img
+        const animal = document.getElementById("animal");
+
+        // Добавляем обработчик события mousemove для body
+        document.body.addEventListener("mousemove", event => {
+            // Получаем координаты курсора мыши
+            const x = event.clientX;
+            const y = event.clientY;
+
+            // Перемещаем изображение животного на новые координаты
+            animal.style.top = `${y}px`;
+            animal.style.left = `${x}px`;
+        });
+    </script>
+</body>
+
+</html>

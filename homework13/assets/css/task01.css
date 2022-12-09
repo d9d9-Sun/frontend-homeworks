@@ -1,0 +1,15 @@
+body {
+    background-image: url("https://source.unsplash.com/random/800x600");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
