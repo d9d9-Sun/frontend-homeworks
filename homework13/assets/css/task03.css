@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #f9f2ea;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fruits-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    gap: 15px;
+    padding: 20px;
+}
+
+.fruits-wrapper > div {
+    padding: 20px;
+}
+
+.red {
+    background-color: #d0819b;
+}
+
+.green {
+    background-color: #5eb6b2;
+}
+
+.orange {
+    background-color: #ee8f61;
+}
+
+.yellow {
+    background-color: #d6ae40;
+}
+
+hr {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+#select > div:not(:first-child) {
+    padding: 15px 60px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+#select > div:not(:first-child):hover {
+    scale: 1.03;
+}
+
+.select-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+
+.shadow {
+    box-shadow: 0px 0px 15px #666;
+    scale: 1.1;
+}
