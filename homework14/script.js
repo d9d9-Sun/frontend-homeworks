@@ -32,7 +32,7 @@ function insert() {
     passwordField.value = '';
     usertype.value = 'val0';
 
-    let userTable = document.querySelector('#user__table');
+    let userTable = document.querySelector('#user__table').childNodes[1];
     
     userTable.innerHTML+='<tr id=user__' + (userList.length-1) + '><td>'+ user.fam +'</td><td>'+ user.login +'</td><td>'+ user.password +'</td><td>'+ getUsertype(user.userType) +'</td><td><button onclick=deleteUser('+ (userList.length-1) + ')>Удалить</button><button onclick=editUser('+ (userList.length-1) + ')>Изменить</button></td>';
 }
@@ -87,7 +87,7 @@ function save(editPosition) {
 
 function showTable(){
     console.log(userList);
-    let userTable = document.querySelector('#user__table');
+    let userTable = document.querySelector('#user__table').childNodes[1];
     userTable.innerHTML = '<tr><th>Фамилия</th><th>Логин</th><th>Пароль</th><th>Роль</th></tr>';
     for (let index=0; index < userList.length; index++) {
         userTable.innerHTML+='<tr id=user__' + index + '><td>'+ userList[index].fam +'</td><td>'+ userList[index].login +'</td><td>'+ userList[index].password +'</td><td class="' + userList[index].userType + '">'+ getUsertype(userList[index].userType) +'</td><td><button onclick=deleteUser('+ index + ')>Удалить</button><button onclick=editUser('+ index + ')>Изменить</button></td>';
