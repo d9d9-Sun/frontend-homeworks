@@ -1,0 +1,36 @@
+.container {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 250px;
+    border: 1px solid #000;
+    padding: 15px;
+    position: relative;
+}
+
+.asc::after {
+    content: '';
+    background: url('../images/dropdown.svg') no-repeat;
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 22px;
+}
+
+.desc::after {
+    content: '';
+    background: url('../images/dropdown.svg') no-repeat;
+    transform: rotate(180deg);
+    margin-left: 15px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 19px;
+}
