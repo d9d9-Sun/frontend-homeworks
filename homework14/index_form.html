@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=CR, initial-scale=1.0">
+    <title>homework14</title>
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <form >
+            <input id="fam" type="text" placeholder="Фамилия">
+            <input id="login" type="text" placeholder="Логин">
+            <input id="password" type="password" placeholder="Пароль">
+            <select  id="user__type"><option value=""> - Выберите роль - </option></select>
+            <input type="button" value="Добавить" onclick="insert()">
+        </form>
+
+        <table id="user__table">
+            <tbody>
+                <tr>
+                    <th>Фамилия</th>
+                    <th>Логин</th>
+                    <th>Пароль</th>
+                    <th>Роль</th>
+                </tr>
+            </tbody>
+        </table>
+
+        <form id="userEdit" style="visibility: hidden;">
+            <br>
+            Вы изменяете позицию <span id="position">:</span>
+            <br>
+            <input id="famEdit" type="text" placeholder="Фамилия">
+            <input id="loginEdit" type="text" placeholder="Логин">
+            <input id="passwordEdit" type="password" placeholder="Пароль">
+            <select  id="user__typeEdit"><option value=""> - Выберите новую роль - </option></select>
+            <input type="button" value="Сохранить" onclick="save(editPosition)">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

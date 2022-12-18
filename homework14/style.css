@@ -1,0 +1,23 @@
+.container {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 20px;
+}
+
+tr {
+    padding: 10px 0;
+    display: block;
+}
+
+tr:first-child {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+th, td {
+    width: 250px;
+}
