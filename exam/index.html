@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="idmodal" class="modal">
+            <form class="modal-content animate" action="#">
+              <h1 class="modal__title">Member Login</h1>
+              <div class="container__modal">
+                <div class="modal__form-box">
+                  <input class="modal__input" id="input-login" type="text" placeholder="Username" required>
+                </div>
+                <div class="modal__form-box">
+                  <input class="modal__input" id="input-pass" type="password" placeholder="Password" required>
+                </div>
+                <div class="button__form-box">
+                  <button class="button__form-login" type="button" onclick="login()">Login</button>
+                  <button class="button__form-regs" onclick="document.getElementById('idmodal-reg').style.display='block';document.getElementById('idmodal').style.display='none'">Registration</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="idmodal-reg" class="modal-reg">
+            <form class="modal-content-reg animate" action="#">
+              <h1 class="modal__title-reg">Registration</h1>
+              <div class="container__modal-reg">
+                <div class="modal__form-box-reg">
+                  <input class="modal__input-reg" type="text" placeholder="Username" required>
+                </div>
+                <div class="modal__form-box-reg">
+                  <input class="modal__input-reg" type="email" placeholder="Email" required>
+                </div>
+                <div class="modal__form-box-reg">
+                  <input class="modal__input-reg" type="password" placeholder="Password" required>
+                </div>
+                <div class="modal__form-box-reg">
+                    <input class="modal__input-reg" type="password" placeholder="Confirm password" required>
+                </div>
+                <div class="modal__form-box-reg">
+                  <input class="modal__input-reg" type="text" placeholder="First Name" required>
+                </div>
+                <div class="modal__form-box-reg">
+                    <input class="modal__input-reg" type="text" placeholder="Last Name" required>
+                </div>
+                <div class="modal__form-box-reg">
+                    <select class="modal__input">
+                        <option value="" disabled selected>- Select your sex -</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="modal__form-box-reg">
+                    <input class="modal__input" type="date">
+                </div>
+                <div class="modal_checkbox">
+                    <input type="checkbox">
+                    <label>I want to recieve news and special offers</label>
+                </div>
+                <div class="modal_checkbox">
+                    <input type="checkbox">
+                    <label>I agree with the Terms and Conditions</label>
+                </div>
+                <div class="button__form-box-reg">
+                  <button class="button__form-registr" type="submit">Registration</button>
+                  <button class="button__form-regs" onclick="document.getElementById('idmodal').style.display='block';document.getElementById('idmodal-reg').style.display='none'">Log In</button>
+                </div>
+              </div>
+            </form>
+          </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
